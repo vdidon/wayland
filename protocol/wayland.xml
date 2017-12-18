@@ -353,6 +353,12 @@
       <entry name="yvu422" value="0x36315659" summary="3 plane YCbCr format, 2x1 subsampled Cr (1) and Cb (2) planes"/>
       <entry name="yuv444" value="0x34325559" summary="3 plane YCbCr format, non-subsampled Cb (1) and Cr (2) planes"/>
       <entry name="yvu444" value="0x34325659" summary="3 plane YCbCr format, non-subsampled Cr (1) and Cb (2) planes"/>
+      <entry name="yuv420_10" value="0x32315530" summary="3 plane 10bpc lsb aligned YCbCr format, 2x2 subsampled Cb (1) and Cr (2) planes"/>
+      <entry name="yuv420_12" value="0x32315532" summary="3 plane 12bpc lsb aligned YCbCr format, 2x2 subsampled Cb (1) and Cr (2) planes"/>
+      <entry name="yuv420_16" value="0x32315536" summary="3 plane 16bpc YCbCr format, 2x2 subsampled Cb (1) and Cr (2) planes"/>
+      <entry name="yvu420_10" value="0x32315630" summary="3 plane 10bpc lsb aligned YCbCr format, 2x2 subsampled Cr (1) and Cb (2) planes"/>
+      <entry name="yvu420_12" value="0x32315632" summary="3 plane 12bpc lsb aligned YCbCr format, 2x2 subsampled Cr (1) and Cb (2) planes"/>
+      <entry name="yvu420_16" value="0x32315636" summary="3 plane 16bpc YCbCr format, 2x2 subsampled Cr (1) and Cb (2) planes"/>
     </enum>
 
     <request name="create_pool">
